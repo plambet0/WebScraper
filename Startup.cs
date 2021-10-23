@@ -31,7 +31,13 @@ namespace WebScraper
             for (int i = 0; i < ratingsInfo.Count; i++)
             {
                 // Check if rating is between (0, 5.00)
-
+                // I devide it by 2 as in your solution but it could be made this way
+                /*
+                if (rating > 5)
+                {
+                    rating = 5;
+                } 
+                */
                 var rating = decimal.Parse(ratingsInfo[i]);
                 if (rating > 5)
                 {
