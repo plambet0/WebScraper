@@ -31,7 +31,7 @@ namespace WebScraper
             for (int i = 0; i < ratingsInfo.Count; i++)
             {
                 // Check if rating is between (0, 5.00)
-                // I devide it by 2 as in your solution but it could be made this way
+                // I devide it by 2 as in your solution but it could be written this way
                 /*
                 if (rating > 5)
                 {
